@@ -1,0 +1,44 @@
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box{
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 5rem;
+ height: 5rem;
+ 
+}
+.box1{
+ background-color: green;
+}
+.box2{
+ background-color: blue;
+
+}
+.box3{
+ background-color: black;
+}
+.box4{
+ background-color: purple;
+}
+.box5{
+ background-color: orange;
+}
+.box1 .box5{
+ font-size: 1rem;
+}
+.box2, .box4 {
+  width: 8rem;
+  height: 8rem;
+  font-size: 2rem;
+
+}
+.box3 {
+  width: 12rem;
+  height: 12rem;
+  font-size: 4rem;
+}
